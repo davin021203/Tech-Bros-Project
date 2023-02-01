@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <style>
+
+    .cart-icon
+     {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: black   ;
+    }
+    
     <meta charset="utf-8" />
     <title>Your ASP.NET application</title>
     <style>
-        body {
+        body 
+        {
             background: #fff;
             color: #505050;
             font: 14px 'Segoe UI', tahoma, arial, helvetica, sans-serif;
@@ -12,14 +25,16 @@
             padding: 0;
         }
 
-        #header {
+        #header
+         {
             background: white;
             padding: 0;
             text-align: center;
             
         }
 
-        h1 {
+        h1
+         {
             font-size: 48px;
             font-weight: normal;
             margin: 0;
@@ -27,7 +42,8 @@
             line-height: 150px;
         }
 
-        p {
+        p 
+        {
             font-size: 20px;
             color: black;
             background: lightgrey;
@@ -35,11 +51,13 @@
             line-height: 50px;
         }
 
-        #main {
+        #main
+        {
             padding: 5px 30px;
         }
 
-        .section {
+        .section 
+        {
             width: 21.7%;
             float: right;
             margin: 0 0 0 4%;
@@ -47,56 +65,67 @@
             
         }
 
-            .section h2 {
-                font-size: 13px;
-                text-transform: uppercase;
-                margin: 0;
-                border-bottom: 1px solid silver;
-                padding-bottom: 12px;
-                margin-bottom: 8px;
-            }
+        .section h2 
+        {
+           font-size: 13px;
+           text-transform: uppercase;
+           margin: 0;
+           border-bottom: 1px solid silver;
+           padding-bottom: 12px;
+           margin-bottom: 8px;
+        }
 
-            .section.first {
-                margin-left: 0;
-            }
+        .section.first 
+        {
+           margin-left: 0;
+        }
 
-                .section.first h2 {
-                    font-size: 24px;
-                    text-transform: none;
-                    margin-bottom: 25px;
-                    border: none;
-                }
+        .section.first h2 
+        {
+          font-size: 24px;
+          text-transform: none;
+          margin-bottom: 25px;
+          border: none;
+        }
 
-                .section.first li {
-                    border-top: 1px solid silver;
-                    padding: 8px 0;
-                }
+        .section.first li 
+        {
+          border-top: 1px solid silver;
+          padding: 8px 0;
+        }
 
-            .section.last {
-                margin-left: 0;
-                font-weight: bold;
-            }
+        .section.last 
+        {
+          margin-left: 0;
+          font-weight: bold;
+        }
 
-        ul {
+        ul 
+        {
             list-style: none;
             padding: 0;
             margin: 0;
             line-height: 20px;
         }
 
-        li {
+        li 
+        {
             padding: 4px 0;
         }
 
-        a {
-            color: #267cb2;
-            text-decoration: none;
+        a 
+        {
+           color: #267cb2;
+           text-decoration: none;
         }
 
-            a:hover {
-                text-decoration: underline;
-            }
-    </style>
+        a:hover 
+        {
+           text-decoration: underline;
+        }
+
+      
+</style>
 </head>
 <body>
 
@@ -104,6 +133,8 @@
         <h1>PC Online Store</h1>
         <p>Stylish Design. Powerful Performance.</p>
     </div>
+
+    <i class="fas fa-shopping-cart cart-icon"></i>
 
     <div class="section">
         <h2>processor</h2>
@@ -114,6 +145,7 @@
             </li>
             <li>RM460.00</li>
             <li>AMD RYZEN ZEN 3</li>
+            <li><button type="button">Add to Cart</button></li>
 
             <li>
             <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-52000/CM8062300834302-420x420.jpg"
@@ -121,6 +153,7 @@
             </li>
             <li>RM489.99</li>
             <li>INTEL CORE CM8062300834302 I7-2600 3.4GHZ QUAD-CORE PROCESSOR</li>
+            <li><button type="button">Add to Cart</button></li>
            
             <li>
             <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS6VTiI2nZIFpLJ2WlG2JljtuBjlQR8XokQ7CXFklkmQFPhqfr-8JFKZdjV0sGTbR9zmGNDZAagqtM&usqp=CAc"
@@ -128,6 +161,7 @@
             </li>
             <li>RM545.00</li>
             <li>INTEL CORE i5 10400F 6 Cores/12 THREADS 2.9/4.3Ghz LGA1200 CPU PROCESSOR BX8070110400F</li>
+            <li><button type="button">Add to Cart</button></li>
 
             <li>
             <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQVePFTR6poomFeSZ3mCUUb3UjbmG2aovpT_4JomQRWUFjqUGggRIeugnxvPir2RMjHeAPvD6ZraI4&usqp=CAc"
@@ -135,6 +169,7 @@
             </li>
             <li>RM659.99</li>
             <li>INTEL CORE I5-6400T SOCKET LGA 1151 2.20GHZ CPU PROCESSOR SR2L1</li>
+            <li><button type="button">Add to Cart</button></li>
 
             <li>
             <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSH7rOb_iYwUnxra6DYizjJqzCye0FmjtcfrjDP5LI7dGWp31wFP2nwssmkektDIG6d3iePeDN3piw&usqp=CAc"
@@ -142,6 +177,7 @@
             </li>
             <li>RM2788.75</li>
             <li>DELL OPTIPLEX  3000 MICRO</li>
+            <li><button type="button">Add to Cart</button></li>
 
             <li>
             <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQAy55pfzMMHPzwooQVIEyHjd2f1GiB5ELJY1oEvajuSLKN6hWOPztuSpsgwCyGxlOa33w_qoGXLw&usqp=CAc"
@@ -149,6 +185,7 @@
             </li>
             <li>RM2879.00</li>
             <li>OptiPlex 3000 Micro</li>
+            <li><button type="button">Add to Cart</button></li>
        </ul>
     </div>
 
@@ -161,6 +198,7 @@
                 </li>
                 <li>RM169</li>
                 <li>Western Digital WD Green SN350 M.2 2280 NVMe 480GB Internal SSD WDS480G2G0C</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ684A1BSNwFROHw3nekfwwfUjoMn7v0nq3oQMlR6ERdC32c_UGIk0JAi3TqOCHRyvg4jdtJCfyXB8&usqp=CAc"
@@ -168,6 +206,7 @@
                 </li>
                 <li>RM318.28</li>
                 <li>Transcend 1TB SSD220Q SATA III 2.5" Internal SSD</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpRL0QD0JyDJkrllRaH73uUDIXBwroewlpRq8ghwZrOqHTnYNejJnFetiMMYu8aZxzOwByzqGqV-I&usqp=CAc"
@@ -175,6 +214,7 @@
                 </li>
                 <li>RM903.05</li>
                 <li>Verbatim M.2 1 TB Internal SSD</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQq8h_6qtqDQ_u_gzyEb9GqxwTDSH4u7dUxyrbr6rcdFPkXyqG1ZH1FPCqj8ABcns-nt9raeTrE4Q&usqp=CAc"
@@ -182,6 +222,7 @@
                 </li>
                 <li>RM959.99</li>
                 <li>WD 1TB RED SA500 NAS 3D NAND INTERNAL SSD 2.5"/7MM UP TO 560 MB/S WDS100T1R0A</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ9pZGh3_cixDZTLJAVD0fOBiW4Ybh2z3bD07J-56oSepYXfVefxF40wneENAqTeB8I7TSzhwCxz_4&usqp=CAc"
@@ -189,6 +230,7 @@
                 </li>
                 <li>RM2417.41</li>
                 <li>Micron 7300 PRO U.2 960 GB Internal SSD Drive</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRzcJQqAGW_4VLTKqkTzHJHkLkWikQwRM86xWbwCWWXAW3HHpZ4sQ0ImnqPPxrfXpNe1H48iN4rsbk&usqp=CAc"
@@ -197,6 +239,7 @@
                 <li>RM3630.62</li>
                 <li>Intel SSD S4510 2.5 in 960 GB Internal SSD Hard Drive
                 </li>
+                <li><button type="button">Add to Cart</button></li>
                
             </ul>
         </div>
@@ -211,6 +254,7 @@
                 </li>
                 <li>RM250.80</li>
                 <li>RX580 950 1060 1070 1650 1660S 2060S 3060 3070 GAMING GPU</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                     <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-47674/AGT630-4GD3-420x420.jpg"
@@ -218,6 +262,7 @@
                 </li>
                 <li>RM180</li>
                 <li>ASUS GT630 1GB NVIDIA DISPLAY DRIVER 327.23 64 BIT GRAPHIC CARD</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                     <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-47915/713380-001-lg-420x420.jpg"
@@ -225,6 +270,7 @@
                 </li>
                 <li>RM459.99</li>
                 <li>HP NVIDIA QUADRO K2000 GRAPHICS CARD 2GB 384 CUDA CORES VIDEO CARD 713380-001</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                     <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-51464/707253-001-420x420.jpg"
@@ -232,6 +278,7 @@
                 </li>
                 <li>RM509.99</li>
                 <li>HP NVIDIA QUADRO 4000 GRAPHICS CARD 2GB GDDR5 MEMORY 25 707253-001</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                     <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-60037/VDM3Mafp1635234862-420x420.jpg"
@@ -239,6 +286,7 @@
                 </li>
                 <li>RM1609.99</li>
                 <li>HP NVIDIA GRID K2 RAF GRAPHICS MODULE 8GB 3072 CORE VIDEO GRAPHICS CARD</li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                     <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-51924/M4000-420x420.png"
@@ -246,6 +294,7 @@
                 </li>
                 <li>RM2200.00</li>
                 <li>PNY NVIDIA QUADRO 8GB M4000 ECC VGA DVI DISPLAY PORT PCI EXPRESS GDDR5</li>
+                <li><button type="button">Add to Cart</button></li>
             </ul>
         </div>
 
@@ -259,7 +308,7 @@
                 </li>
                 <li>RM339.99</li>
                 <li>HYNIX HMA42GR7MFR4N-TF 16GB DDR4-2133 2RX4 ECC REG SERVER MEMORY</li>
-                <li>
+                <li><button type="button">Add to Cart</button></li>
 
                 <li>
                 <img src="https://d2kz9lt0wzv9b2.cloudfront.net/web/image/product.template/19757/image_1024?ts=1674810625" 
@@ -268,6 +317,7 @@
                 </li>
                 <li>RM389</li>
                 <li>CORSAIR VENGEANCE RGB PRO DDR4 3200MHz 16GB (2x8) DESKTOP MEMORY CMW16GX4M2C3200C16</li>
+                <li><button type="button">Add to Cart</button></li>
                         
                <li>
                <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-57880/3rFY192L1617182681-420x420.jpg"
@@ -275,6 +325,7 @@
                </li>
                <li>RM859.99</li>
                <li>DELL 32GB 1X32GB 2RX4 2933MHZ PC4-23400 CL21 ECC 8WKDY 08WKDY</li>
+               <li><button type="button">Add to Cart</button></li>
 
                <li>
                <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-63398/S7CVj83Z1670406026-420x420.jpg"
@@ -283,6 +334,7 @@
                <li>RM959.99</li>
                <li>SAMSUNG 64GB PC4-19200 DDR4-2400T-L ECC 4DRX4 CL17 288 PIN 1.20V MEMORY MODULE LRDIMM M386A8K40BM1-CRC
                </li>
+               <li><button type="button">Add to Cart</button></li>
 
                <li>
                <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-58534/2TMTV47n1623393229-420x420.jpg"
@@ -290,6 +342,7 @@
                 </li>
                 <li>RM1209.99</li>
                 <li>LENOVO THINKPAD 32GB DDR4 3200MHZ SODIMM MEMORY 4X71A11993</li>
+                <li><button type="button">Add to Cart</button></li>
                             
                <li>
                <img src="https://www.sysnapse.com/image/sysnapse/image/cache/data/all_product_images/product-58095/6Oe4TD6e1619514142-420x420.jpg"
@@ -297,6 +350,7 @@
                </li>
                <li>RM1909.99</li>
                <li>SAMSUNG 64GB DDR4-2666MHZ ECC LRDIMM SERVER MEMORY M386A8K40CM2-CTD</li>
+               <li><button type="button">Add to Cart</button></li>
                
             </ul>
         </div>
