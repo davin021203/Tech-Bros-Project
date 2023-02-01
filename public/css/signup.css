@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f5f5f5;
+    background: grey;
     font-family: 'roboto', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body{
 }
 
 .logo{
-    height: 80px;
+    height: 220px;
     display: block;
     margin: 0 auto 50px;
 }
