@@ -4,7 +4,7 @@
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
-    background-image: url('../img/header.png');
+    background-image: url('../img/backdrop.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -12,9 +12,12 @@
 }
 
 .hero-section .logo{
-    height: 150px;
+    height: 700px;
+
     display: block;
-    margin: auto;
+    font-family: arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2vmax;
+    
 }
 
 .hero-section .sub-heading{
