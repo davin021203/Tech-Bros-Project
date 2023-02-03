@@ -9,6 +9,7 @@ const createNav = () => {
             <input type="text" class="search-box" placeholder="search brand, product">
             <button class="search-btn">search</button>
         </div>
+    
         <a href="#"><img src="img/user.png" alt=""></a>
         <a href="#"><img src="img/cart.png" alt=""></a>
     </div>
@@ -19,6 +20,7 @@ const createNav = () => {
     <li class="link-item"><a href="#" class="link">RAM</a></li>
     <li class="link-item"><a href="#" class="link">Solid-State Drives</a></li>
     <li class="link-item"><a href="#" class="link">Others</a></li>
+    <li class="link-item"><a href="#" class="link">Products</a></li>
 </ul>
     `;
 }

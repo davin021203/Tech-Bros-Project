@@ -21,7 +21,7 @@
 }
 
 .brand-logo{
-    height: 200px;
+    height: 100px;
 }
 
 .nav-items{
@@ -88,7 +88,7 @@
     padding: 0 10px;
     margin: 0 5px;
     text-decoration: none;
-    color: #383838;
+    color: #fff;
     opacity: 0.5;
     transition: .5s;
 }
