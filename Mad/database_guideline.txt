@@ -1,0 +1,1 @@
+create database call "data" then add the sql code that you can find the the sql folder
