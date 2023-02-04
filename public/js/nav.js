@@ -19,8 +19,6 @@ const createNav = () => {
     <li class="link-item"><a href="#" class="link">Motherboard</a></li>
     <li class="link-item"><a href="#" class="link">RAM</a></li>
     <li class="link-item"><a href="#" class="link">Solid-State Drives</a></li>
-    <li class="link-item"><a href="#" class="link">Others</a></li>
-    <li class="link-item"><a href="#" class="link">Products</a></li>
 </ul>
     `;
 }

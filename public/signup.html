@@ -20,11 +20,12 @@
 
     <div class="container">
         <img src="img/logo_transparent.png" class="logo" alt="">
+        <form action="connect.php" method="post">
         <div>
-            <input type="text" autocomplete="off" id="name" placeholder="name">
-            <input type="email" autocomplete="off" id="email" placeholder="email">
-            <input type="password" autocomplete="off" id="password" placeholder="password">
-            <input type="text" autocomplete="off" id="number" placeholder="number">
+            <input type="text" autocomplete="off" id="namee" name="name" placeholder="name">
+            <input type="email" autocomplete="off" id="email" name="email" placeholder="email">
+            <input type="password" autocomplete="off" id="password" name="password" placeholder="password">
+            <input type="text" autocomplete="off" id="number" name="number" placeholder="number">
             <input type="checkbox" checked class="checkbox" id="terms-and-cond">
             <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
             <br>
@@ -34,7 +35,7 @@
         </div>
         <a href="http://127.0.0.1:3000/public/login.html" class="link">already have an account? Log in here</a>
     </div>
-
+</form>
     <script src="js/token.js"></script>
     <script src="js/form.js"></script>
 
