@@ -1,2 +1,0 @@
-<?php
-/* Database connection settings */
