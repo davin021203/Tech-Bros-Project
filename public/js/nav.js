@@ -17,7 +17,7 @@ const createNav = () => {
 <ul class="links-container">
     <li class="link-item"><a href="#" class="link">Home</a></li>
     <li class="link-item"><a href="#" class="link">Motherboard</a></li>
-    <li class="link-item"><a href="#" class="link">RAM</a></li>
+    <li class="link-item"><a href="http://127.0.0.1:3000/Danish/productpage.html" class="link">RAM</a></li>
     <li class="link-item"><a href="#" class="link">Solid-State Drives</a></li>
 </ul>
     `;
