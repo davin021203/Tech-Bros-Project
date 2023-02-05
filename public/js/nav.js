@@ -10,7 +10,7 @@ const createNav = () => {
             <button class="search-btn">search</button>
         </div>
     
-        <a href="http://127.0.0.1:3000/public/signup.html"><img src="img/user.png" alt=""></a>
+        <a href="#"><img src="img/user.png" alt=""></a>
         <a href="#"><img src="img/cart.png" alt=""></a>
     </div>
 </div>
