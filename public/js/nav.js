@@ -10,7 +10,7 @@ const createNav = () => {
             <button class="search-btn">search</button>
         </div>
     
-        <a href="#"><img src="img/user.png" alt=""></a>
+        <a href="C:\Users\davin\OneDrive\Documents\GitHub\Tech-Bros-Project\Mad\login-registration\login-registration-forgot_password-reset_password\login-registration-forgot_password-reset_password\index.php"><img src="img/user.png" alt=""></a>
         <a href="#"><img src="img/cart.png" alt=""></a>
     </div>
 </div>
